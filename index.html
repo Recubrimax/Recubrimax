@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recubrimax</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+            margin: 0;
+        }
+        header {
+            background-color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        header img {
+            max-width: 200px;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .gallery img {
+            max-width: 300px;
+            border: 2px solid #444;
+            border-radius: 10px;
+        }
+        .contacto {
+            background-color: #292929;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .contacto h2 {
+            color: #ffffff;
+        }
+        footer {
+            text-align: center;
+            background-color: #111;
+            padding: 10px;
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Recubrimax Logo">
+        <h1>Recubrimiento de Rodillos - RECUBRIMAX</h1>
+    </header>
+
+    <nav>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#ubicacion">Ubicación</a>
+    </nav>
+
+    <div class="content">
+        <section id="galeria">
+            <h2>Galería de Productos</h2>
+            <div class="gallery">
+                <img src="producto1.jpg" alt="Producto 1">
+                <img src="producto2.jpg" alt="Producto 2">
+                <img src="producto3.jpg" alt="Producto 3">
+                <img src="producto4.jpg" alt="Producto 4">
+                <img src="producto5.jpg" alt="Producto 5">
+                <img src="producto6.jpg" alt="Producto 6">
+                <img src="producto7.jpg" alt="Producto 7">
+                <img src="producto8.jpg" alt="Producto 8">
+                <img src="producto9.jpg" alt="Producto 9">
+            </div>
+        </section>
+
+        <section id="contacto" class="contacto">
+            <h2>Contáctanos</h2>
+            <p>Teléfono: 55-1234-5678</p>
+            <p>Email: contacto@recubrimax.com</p>
+        </section>
+
+        <section id="ubicacion">
+            <h2>Ubicación</h2>
+            <p>Calle de la Industria #123, CDMX</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.5110555853743!2d-99.125!3d19.4326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDI2JzU3LjQiTiA5OcKwMDcnMzAuMCJX!5e0!3m2!1ses-419!2smx!4v1627074932572!5m2!1ses-419!2smx"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2025 Recubrimax. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
